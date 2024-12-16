@@ -30,7 +30,7 @@ int main() {
     Student* topStudent = max(students, size);
 
     
-    cout << "学号为 " << topStudent->id << " 的学生成绩最高，成绩为 " << topStudent->score << "。" << endl;
+    cout << "学号为 "  << topStudent->id << " 的学生成绩最高，成绩为 " << topStudent->score << "。" << endl;
 
     return 0;
 }
